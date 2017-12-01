@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1512131944 source:d:\codeblocks projects\matrizparimpnegpos\main.cpp
+	<iostream>
+	<stdlib.h>
+
