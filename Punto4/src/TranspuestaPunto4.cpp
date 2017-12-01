@@ -32,22 +32,24 @@ int main()
 
     cout<<"La matriz original es"<<endl;
 
+    //Print the original matrix
     for(i =0; i<n;i++)
     {
             	for(j=0; j<n;j++)
             	{
-            		cout<<matriz[i][j]<<" ";//Print the original matrix
+            		cout<<matriz[i][j]<<" ";
             	}
                    cout<<""<<endl;
     }
 
     cout<<"La transpuesta de esta matriz es"<<endl;
 
+    //Print the transpose of the matrix
     for(i =0; i<n;i++)
     {
         	for(j=0; j<n;j++)
         	{
-        		cout<<matriz[j][i]<<" ";//Print the transpose of the matrix
+        		cout<<matriz[j][i]<<" ";
         	}
                  cout<<""<<endl;
      }
