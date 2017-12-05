@@ -27,7 +27,7 @@ int main()
         {
             cin>>number;//Read the numbers in the console.
             matriz[i][j]=number;//Add to the matrix the numbers
-            cin.ignore(1);//Ignore the commas
+            cin.ignore(1);//Ignore the commas or spaces between numbers
         }
 
     }
