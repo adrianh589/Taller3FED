@@ -65,7 +65,7 @@ int main()
 		for ( i=0; i<n;i++) {
 			for( j=0;j<n;j++) {
 				if (numbers[i][j]>=0) {
-					cout<<numbers[i][j]<<" "<<endl;
+					cout<<numbers[i][j]<<" ";
 				}
 			}
 		}
@@ -77,7 +77,7 @@ int main()
 		for ( i=0; i<n;i++) {
 			for( j=0;j<n;j++) {
 				if (numbers[i][j]<0) {
-					cout<<numbers[i][j]<<" "<<endl;
+					cout<<numbers[i][j]<<" ";
 				}
 			}
 		}
@@ -89,7 +89,7 @@ int main()
 		for ( i=0; i<n;i++) {
 			for( j=0;j<n;j++) {
 				if (numbers[i][j]%2==0) {
-					cout<<numbers[i][j]<<" "<<endl;
+					cout<<numbers[i][j]<<" ";
 				}
 			}
 		}
@@ -101,7 +101,7 @@ int main()
 		for ( i=0; i<n;i++) {
 			for( j=0;j<n;j++) {
 				if (numbers[i][j]%2!=0) {
-					cout<<numbers[i][j]<<" "<<endl;
+					cout<<numbers[i][j]<<" ";
 				}
 			}
 		}
