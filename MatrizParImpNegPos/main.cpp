@@ -1,6 +1,5 @@
 #include <iostream>
 #include <stdlib.h>//Library to use the random class
-#include <stdio.h>//Library to use printf
 
 using namespace std;
 
