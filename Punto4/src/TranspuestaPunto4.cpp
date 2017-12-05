@@ -19,7 +19,7 @@ int main()
 
     cin>>n;//Read the length of the matrix
     int matriz[n][n];
-    cout<<"Introduzca los numeros "<<n*n<<" numeros";
+    cout<<"Introduzca los numeros "<<n*n<<" numeros"<<endl;
 
     for(i =0; i<n;i++)
     {
