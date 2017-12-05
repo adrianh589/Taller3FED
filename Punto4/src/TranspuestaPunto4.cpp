@@ -19,7 +19,7 @@ int main()
 
     cin>>n;//Read the length of the matrix
     int matriz[n][n];
-    cout<<"Introduzca los numeros "<<n*n<<" numeros"<<endl;
+    cout<<"Introduzca los "<<n*n<<" numeros separados por coma o por espacios"<<endl;
 
     for(i =0; i<n;i++)
     {
