@@ -18,7 +18,7 @@ public class RomboExterior {
 		int m=Integer.parseInt(br.readLine());//Read the length of the matrix in console
 		
 		
-		bw.write("Introduzca los numeros separados por comas diferente de 0");
+		bw.write("Introduzca los "+m*m+" numeros separados por comas diferente de 0\n");
 		bw.flush();
 		
 		String[] numbers_commas=br.readLine().split(",");//Array to read numbers in the console separated with commas 
