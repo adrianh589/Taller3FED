@@ -13,7 +13,7 @@ public class RomboExterior {
 		BufferedReader br = new BufferedReader (isr);//Buffer to read the length of the matrix
 		BufferedWriter bw =new BufferedWriter(new OutputStreamWriter(System.out));//Buffer to write in console
 		
-		bw.write("Introduzca el tamaño de la matriz: ");
+		bw.write("Introduzca el tamaño de la matriz: \n");
 		bw.flush();
 		int m=Integer.parseInt(br.readLine());//Read the length of the matrix in console
 		
@@ -28,6 +28,8 @@ public class RomboExterior {
 		
 		
 		//Fill matrix with numbers entered by user
+		bw.write("\nLa matriz original es: \n\n");
+		bw.flush();
 		for (int i=0; i<m; i++) 
 		{
 			for (int j=0;j<m;j++)
