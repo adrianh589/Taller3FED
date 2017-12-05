@@ -18,7 +18,6 @@ int main()
 	cout<< "Defina el tamaño de la matriz"<<endl;
     cin>>n;//Read the length of the matrix
     int numbers[n][n];
-    cout<<"Introduzca los numeros: ";
 
     for(i =0; i<n;i++)
     {
