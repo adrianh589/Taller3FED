@@ -14,7 +14,7 @@ int main()
     int even_numbers_counter=0;
     int odd_numbers_counter=0;
 
-	cout<< "Defina el tamaño de la matriz"<<endl;
+    cout<< "Defina el tamaño de la matriz"<<endl;
     cin>>n;//Read the length of the matrix
     int numbers[n][n];
 
