@@ -88,5 +88,10 @@ for i in range(int(matriz.__len__() / 2), int(matriz.__len__())):
 
 #print the numbers inside the diamond
 print("El rombo interior de la matriz es")
-for i in nueva_matriz:
-    print(i)
+for i in range(0, nueva_matriz.__len__()):
+        for j in range(0, nueva_matriz.__len__()):
+            if nueva_matriz[i][j] == 0:
+                print("  ",end="")
+            else:
+                print(nueva_matriz[i][j],"",end="")
+        print("")
