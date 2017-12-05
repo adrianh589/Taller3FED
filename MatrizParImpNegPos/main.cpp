@@ -8,7 +8,7 @@ int main()
 {
 
     int i;//Variable to columns of the matrix
-	int j;//Variable to rows of the matrix
+    int j;//Variable to rows of the matrix
     int n;//Variable to define the matrix
     int positive_numbers_counter=0;
     int negative_numbers_counter=0;
