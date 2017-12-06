@@ -19,7 +19,7 @@ for i in range(m):
 #Show original matrix
 print("La matriz original es")
 for i in range(m):
-    print(matriz[i])
+    print(*matriz[i])
 
 mitad = int(matriz.__len__() / 2)
 
